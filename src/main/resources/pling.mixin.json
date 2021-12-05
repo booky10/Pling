@@ -1,12 +1,12 @@
 {
-	"required": true,
-	"package": "io.github.haykam821.pling.mixin",
-	"compatibilityLevel": "JAVA_8",
-	"client": [
-		"MinecraftClientGameMixin",
-		"SplashOverlayMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "package": "io.github.haykam821.pling.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "GameMixin",
+    "LoadingOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
